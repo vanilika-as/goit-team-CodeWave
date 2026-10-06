@@ -1,0 +1,175 @@
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  width: 100%;
+  background-color: #faf6f3;
+}
+
+.header-container {
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.header-logo-img {
+  display: block;
+
+  width: 50.4px;
+  height: 35px;
+}
+
+
+/* =========================
+   RIGHT SIDE
+========================= */
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.header-nav {
+  display: none;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-nav-link {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #0c0708;
+
+  transition: opacity 250ms ease;
+}
+
+
+/* =========================
+   REGISTER BUTTON
+========================= */
+
+.header-register-btn {
+  width: 97px;
+  height: 40px;
+
+  padding: 8px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border: 1px solid #ffb780;
+  border-radius: 100px;
+
+  background-color: #ffb780;
+  color: #0c0708;
+
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  transition:
+    background-color 250ms ease,
+    border-color 250ms ease;
+}
+
+
+/* =========================
+   MOBILE MENU
+========================= */
+
+.header-menu-btn {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.header-menu-icon {
+  display: block;
+
+  width: 24px;
+  height: 24px;
+}
+
+
+/* =========================
+   INTERACTION
+========================= */
+
+.header-register-btn:hover,
+.header-register-btn:focus {
+  background-color: #ffa45f;
+  border-color: #ffa45f;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  opacity: 0.7;
+}
+
+
+/* =========================
+   TABLET — 768+
+========================= */
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    height: 72px;
+  }
+
+  .header-nav {
+    display: block;
+  }
+
+  .header-menu-btn {
+    display: none;
+  }
+}
+
+
+/* =========================
+   DESKTOP — 1440+
+========================= */
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    height: 72px;
+  }
+}

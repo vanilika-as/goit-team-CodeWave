@@ -1,0 +1,26 @@
+{
+  "name": "goit-team-codewave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanilika-as/goit-team-CodeWave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vanilika-as/goit-team-CodeWave/issues"
+  },
+  "homepage": "https://github.com/vanilika-as/goit-team-CodeWave#readme",
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}

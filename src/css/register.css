@@ -98,14 +98,19 @@
   padding: 10px 24px;
 
   background-color: #ffb780;
+
+  transition: 300ms ease-out;
+  transition-property: opacity;
 }
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   opacity: 0.5;
 }
 .modal-form-btn:active {
-  padding: 10px 24px;
-  width: 110%;
+  opacity: 0.7;
+}
+.modal-form-btn:disabled {
+  opacity: 0.2;
 }
 
 .modal-form-img {

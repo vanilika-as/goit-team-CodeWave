@@ -1,0 +1,69 @@
+.register .container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+
+  max-width: 335px;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
+.modal-form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+.modal-form-field {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+.modal-form-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0c0708;
+}
+.modal-form-input {
+  border: 1px solid rgba(12, 7, 8, 0.15);
+  border-radius: 12px;
+  padding: 8px 12px;
+  width: 335px;
+  height: 40px;
+
+  background-color: rgba(12, 7, 8, 0.05);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(12, 7, 8, 0.6);
+}
+.modal-form-comment {
+  border: 1px solid rgba(12, 7, 8, 0.15);
+  border-radius: 12px;
+  padding: 12px;
+  width: 335px;
+  max-height: 180px;
+
+  background-color: rgba(12, 7, 8, 0.05);
+}
+.modal-form-btn {
+  border: 1px solid #ffb780;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 340px;
+  height: 44px;
+
+  background-color: #ffb780;
+}
+.modal-form-img {
+  border-radius: 16px;
+}

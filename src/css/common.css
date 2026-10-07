@@ -11,7 +11,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: #0c0708;
-  background-color: #FAF6F3;
+  background-color: #faf6f3;
 }
 
 h1,
@@ -23,6 +23,32 @@ h6,
 p {
   margin: 0;
 }
+
+/* Main page title */
+h1 {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #0c0708;
+}
+
+/* Section titles */
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: #0c0708;
+}
+
+/*
+  h3-h6 inherit Tajawal from body.
+  Their sizes and weights are set
+  separately in each section according to Figma.
+*/
 
 ul,
 ol {
@@ -71,6 +97,10 @@ img {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  h1 {
+    font-size: 56px;
   }
 }
 

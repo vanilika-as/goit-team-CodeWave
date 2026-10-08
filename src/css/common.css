@@ -45,9 +45,9 @@ h2 {
 }
 
 /*
-  h3-h6 inherit Tajawal from body.
-  Their sizes and weights are set
-  separately in each section according to Figma.
+   h3-h6 успадковують шрифт Tajawal з body.
+  Розмір і товщина шрифту задаються
+  окремо в кожній секції відповідно до Figma.
 */
 
 ul,

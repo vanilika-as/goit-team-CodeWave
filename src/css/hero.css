@@ -160,3 +160,21 @@
         flex-shrink: 0;
     }
 }
+
+.hero-btn-rg:hover,
+.hero-btn-rg:focus {
+    opacity: 0.5;
+}
+
+.hero-btn-rg:active {
+    opacity: 0.7;
+}
+
+.hero-btn-lm:hover,
+.hero-btn-lm:focus {
+    opacity: 0.5;
+}
+
+.hero-btn-lm:active {
+    opacity: 0.7;
+}

@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
@@ -26,7 +26,7 @@ p {
 
 /* Main page title */
 h1 {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-weight: 700;
   font-size: 40px;
   line-height: 1;
@@ -36,7 +36,7 @@ h1 {
 
 /* Section titles */
 h2 {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.1;

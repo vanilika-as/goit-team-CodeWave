@@ -22,3 +22,13 @@ mobileMenuLinks.forEach(link => {
 });
 
 mobileRegisterBtn.addEventListener('click', closeMenu);
+
+const tabletMedia = window.matchMedia('(min-width: 768px)');
+
+const handleTabletChange = event => {
+  if (event.matches && mobileMenu.classList.contains('is-open')) {
+    closeMenu();
+  }
+};
+
+tabletMedia.addEventListener('change', handleTabletChange);

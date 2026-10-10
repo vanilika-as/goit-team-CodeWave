@@ -17,8 +17,18 @@ const closeMenu = () => {
 openMenuBtn.addEventListener('click', openMenu);
 closeMenuBtn.addEventListener('click', closeMenu);
 
-mobileMenuLinks.forEach(link => {
+mobileMenuLinks.forEach((link) => {
   link.addEventListener('click', closeMenu);
 });
 
 mobileRegisterBtn.addEventListener('click', closeMenu);
+
+const tabletMedia = window.matchMedia('(min-width: 768px)');
+
+const handleTabletChange = (event) => {
+  if (event.matches && mobileMenu.classList.contains('is-open')) {
+    closeMenu();
+  }
+};
+
+tabletMedia.addEventListener('change', handleTabletChange);
